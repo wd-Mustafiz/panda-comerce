@@ -53,6 +53,27 @@ html{
     
     transform: translatey(-12px);
 }
+
+.carousel-indicators li{
+    width: 13px;
+    height: 10px;
+    border-radius: 45% !important;
+    background-color: grey;
+}
+
+.carousel-indicators .active {
+    width: 30px;
+    background-image: linear-gradient(to right , #dab902 0% , #ffff0ee3);
+}
+
+.water-mark{
+    position: absolute;
+    transform: rotate(90deg);
+    left: 25%;
+    font-size: 50px;
+    color: grey;
+    opacity: .1;
+}
 .suscrive{
     height: 300px;
     background-color: #fceae8;
